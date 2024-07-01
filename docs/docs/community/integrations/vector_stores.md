@@ -36,6 +36,7 @@ as the storage backend for `VectorStoreIndex`.
 - Qdrant (`QdrantVectorStore`) [Installation](https://qdrant.tech/documentation/install/) [Python Client](https://qdrant.tech/documentation/install/#python-client)
 - LanceDB (`LanceDBVectorStore`) [Installation/Quickstart](https://lancedb.github.io/lancedb/basic/)
 - Redis (`RedisVectorStore`). [Installation](https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/).
+- Relyt (`RelytVectorStore`). [Quickstart](https://docs.relyt.cn/docs/vector-engine/).
 - Supabase (`SupabaseVectorStore`). [Quickstart](https://supabase.github.io/vecs/api/).
 - TiDB (`TiDBVectorStore`). [Quickstart](../../examples/vector_stores/TiDBVector.ipynb). [Installation](https://tidb.cloud/ai). [Python Client](https://github.com/pingcap/tidb-vector-python).
 - TimeScale (`TimescaleVectorStore`). [Installation](https://github.com/timescale/python-vector).
@@ -872,6 +873,7 @@ documents = reader.load_data(
 - [Azure Cosmos DB](../../examples/vector_stores/AzureCosmosDBMongoDBvCoreDemo.ipynb)
 - [Caasandra](../../examples/vector_stores/CassandraIndexDemo.ipynb)
 - [Chromadb](../../examples/vector_stores/ChromaIndexDemo.ipynb)
+- [Couchbase](../../examples/vector_stores/CouchbaseVectorStoreDemo.ipynb)
 - [Dash](../../examples/vector_stores/DashvectorIndexDemo.ipynb)
 - [Deeplake](../../examples/vector_stores/DeepLakeIndexDemo.ipynb)
 - [DocArray HNSW](../../examples/vector_stores/DocArrayHnswIndexDemo.ipynb)
